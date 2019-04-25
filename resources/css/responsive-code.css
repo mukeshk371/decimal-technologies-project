@@ -25,4 +25,7 @@
         padding: 10px 0;
         font-size: 15px;
     }
+    #menuToggle {
+    	top: 38px;
+    }
 }
