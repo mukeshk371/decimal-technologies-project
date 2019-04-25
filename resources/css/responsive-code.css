@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1006px) {
+@media only screen and (max-width: 1018px) {
 	header {
         font-size: 18px;
     }
@@ -6,25 +6,33 @@
     .featured li {
         width: 45%;
     }
+
     #menu li {
         padding: 10px 0;
         font-size: 18px;
+    }
+
+    .featured img {
+    	width: 90%;
     }
 }
 
 
 @media only screen and (max-width: 480px) {
-    header {
-        font-size: 15px;
-    }
+	body {
+		margin: 1%;
+	}
+    
     .options li,
     .featured li {
         width: 95%;
     }
+
     #menu li {
-        padding: 10px 0;
-        font-size: 15px;
+        padding: 5% 0;
+        width: 40%;
     }
+
     #menuToggle {
     	top: 38px;
     }

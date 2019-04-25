@@ -24,14 +24,14 @@ ul {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14% 20%;
   text-decoration: none;
 }
 
 header {
-	margin: 10px;
+	margin: 2%;
 	text-align: center;
-    font-size: 30px;
+    font-size: 180%;
 }
 
 
@@ -41,7 +41,7 @@ header {
 .featured li {
 	display: block;
 	float: left;
-	margin: 10px;
+	margin: 1%;
 	width: 31%;
 	border: 2px solid #ecf0f1;
 }
@@ -141,7 +141,7 @@ a {
 
 #menu {
     position: absolute;
-    width: 300px;
+    width: 30%;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
@@ -154,8 +154,8 @@ a {
 }
 
 #menu li {
-    padding: 10px 0;
-    font-size: 22px;
+    padding: 4% 0;
+    font-size: 100%;
 }
 
 #menuToggle input:checked ~ ul {
@@ -168,7 +168,7 @@ a {
 
 p,
 h4 {
-	margin: 10px;
+	margin: 4%;
 }
 
 .options img {
@@ -240,7 +240,7 @@ h5 {
 
 table {
   border-collapse: collapse;
-  width: 95%;
+  width: 90%;
   font-size: 80%;
 }
 
