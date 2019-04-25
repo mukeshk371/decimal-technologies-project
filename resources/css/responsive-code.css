@@ -1,4 +1,17 @@
-/* Small phones: 0px to 480px */
+@media only screen and (max-width: 1006px) {
+	header {
+        font-size: 18px;
+    }
+    .options li,
+    .featured li {
+        width: 45%;
+    }
+    #menu li {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+}
+
 
 @media only screen and (max-width: 480px) {
     header {
@@ -10,6 +23,6 @@
     }
     #menu li {
         padding: 10px 0;
-        font-size: 12px;
+        font-size: 15px;
     }
 }
