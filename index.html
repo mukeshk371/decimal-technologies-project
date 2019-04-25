@@ -4,6 +4,7 @@
 <head>
     <title>Vahana Project Management | Visual Journey</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/responsive-code.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
 </head>
 
@@ -24,7 +25,7 @@
                 <a href="#"><li>Billing Management</li></a>
             </ul>
         </div>
-        <ul>
+        <ul class="navbar-right-menu">
             <li><img src="resources/images/logo.jpg"></li>
             <li style="float: right;"><img src="resources/images/dropdown.jpg"></li>
             <li style="float: right;"><a href="#">Ganesh</a></li>
@@ -34,7 +35,7 @@
     </nav>
 
     <header>
-        <h2>Getting Started! What are you looking for</h2>
+        <p>Getting Started! <b>What are you looking for</b></p>
     </header>
 
     <section>
@@ -59,7 +60,7 @@
         <h2>Featured</h2>
 
         <ul class="featured">
-            <li class="main">
+            <li>
                 <div class="leftDiv">
                     <figure><img src="resources/images/4.jpg"></figure>
                 </div>
@@ -67,25 +68,41 @@
                     <h4>Survey</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur eli</p>
                 </div>
-
             </li>
             <li>
-                <h4>Exam</h4>
-                <figure><img src="resources/images/4.jpg"></figure>
-                <p>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur eli</p>
+                <div class="leftDiv">
+                    <figure><img src="resources/images/4.jpg"></figure>
+                </div>
+                <div class="rightDiv">
+                    <h4>Exam</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur eli</p>
+                </div>
             </li>
             <li>
-                <h4>IAM & Admin</h4>
-                <figure><img src="resources/images/4.jpg"></figure>
-                <p>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur eli</p>
+                <div class="leftDiv">
+                    <figure><img src="resources/images/4.jpg"></figure>
+                </div>
+                <div class="rightDiv">
+                    <h4>IAM & Admin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur eli</p>
+                </div>
             </li>
         </ul>
     </section>
 
-    <a href="#" class="seeMore">See More</a>
+    <section class="seeMore">
+    	<a href="#">See More</a>
+    </section>
 
-    <h5>Not sure how to proceed?</h5>
-    <button class="learnMore">Learn More</button>
+    <section class="border"></section>
+
+    <section>
+    	<h5>Not sure how to proceed?</h5>
+    </section>
+    
+    <section class="learnMore">
+    	<button>Learn More</button>
+    </section>
 </body>
 
 </html>

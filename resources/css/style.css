@@ -16,11 +16,11 @@ ul {
   overflow: hidden;
 }
 
-li {
+.navbar-right-menu li {
   float: left;
 }
 
-li a {
+.navbar-right-menu a {
   display: block;
   color: white;
   text-align: center;
@@ -31,6 +31,7 @@ li a {
 header {
 	margin: 10px;
 	text-align: center;
+    font-size: 30px;
 }
 
 
@@ -159,23 +160,38 @@ h5{
 }
 
 h5 {
-	border-top: 2px solid #ecf0f1
+    margin: 10px;
 }
 
-.main > div {
-	float: left;
+.border {
+    border-top: 2px solid #ecf0f1;
+}
+
+
+.leftDiv {
+    width: 30%;
+    float: left;
+}
+
+.rightDiv {
+    width: 70%;
+    float: right;
 }
 
 .seeMore {
 	text-decoration: none;
-	float: center;
-	margin: 5px;
+	text-align: center;
+    margin: 10px;
 }
 
 
-.learnMore {
+.learnMore button {
 	padding: 8px 16px;
 	color: #2457A8;
 	background-color: transparent;
 	border: 2px solid #ecf0f1;
+}
+
+.learnMore {
+    text-align: center;
 }
