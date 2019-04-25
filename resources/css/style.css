@@ -36,6 +36,7 @@ header {
 
 
 /*----------------------------------------------------------------------------*/
+
 .options li,
 .featured li {
 	display: block;
@@ -45,9 +46,15 @@ header {
 	border: 2px solid #ecf0f1;
 }
 
+.options li {
+    height: 270px;
+}
+
 nav img {
 	width: 45px;
 }
+
+/*------------------------------------------------------------------------------------------*/
 
 a {
     text-decoration: none;
@@ -62,7 +69,7 @@ a:hover {
 #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 50px;
     z-index: 1;
     -webkit-user-select: none;
@@ -174,7 +181,7 @@ h5 {
 }
 
 .rightDiv {
-    width: 70%;
+    width: 65%;
     float: right;
 }
 
