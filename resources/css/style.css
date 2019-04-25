@@ -16,7 +16,7 @@ ul {
   overflow: hidden;
 }
 
-.navbar-right-menu li {
+.navbar li {
   float: left;
 }
 
@@ -54,16 +54,30 @@ nav img {
 	width: 45px;
 }
 
+
+.project-management-navbar li,
+.project-div-navbar li {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.project-management-navbar {
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #D2D4D6;
+}
+
+.project-management-navbar a {
+    color: #2457A8;
+}
+
 /*------------------------------------------------------------------------------------------*/
 
 a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
-}
-
-a:hover {
-    color: tomato;
 }
 
 #menuToggle {
@@ -192,13 +206,49 @@ h5 {
 }
 
 
-.learnMore button {
+.learnMore button,
+.project-management-navbar button {
 	padding: 8px 16px;
 	color: #2457A8;
 	background-color: transparent;
-	border: 2px solid #ecf0f1;
+	border: 2px solid #D2D4D6;
 }
 
 .learnMore {
     text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.menu-div {
+    width: 20%;
+    float: left;
+    border-right: 1px solid #D2D4D6; 
+}
+
+.project-div {
+    width: 80%;
+    float: right;
+}
+
+.project-div-navbar a:hover {
+    color: #2457A8;
+    border-bottom: 2px solid #2457A8;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  font-size: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+th {
+  background-color: #f2f2f2;
 }
