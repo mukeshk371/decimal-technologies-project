@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Project Management</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/responsive-code.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
 </head>
+
 <body>
-	<nav>
+    <nav>
         <ul class="navbar navbar-right-menu">
             <li style="margin-left: 4%;"><img src="resources/images/logo.jpg"></li>
             <li style="float: right;"><img src="resources/images/dropdown.jpg"></li>
@@ -26,68 +28,99 @@
     </label>
     <div id="sidebarMenu">
         <ul class="sidebarMenuInner">
-            <li><a href="#"><img src="resources/images/dashboard.png">Dashboard</a></li>
-            <li><a href="#"><img src="resources/images/get-started.png">Get Started</a></li>
-            <li><a href="#"><img src="resources/images/support.png">Support</a></li>
-            <li><a href="#"><img src="resources/images/kart.png">Marketplace</a></li>
-            <li><a href="#"><img src="resources/images/admin.png">IAM & Admin</a></li>
-            <li><a href="project-management.html"><img src="resources/images/project-management.png">Project Management</a></li>
-            <li><a href="#"><img src="resources/images/bill.png">Billing Management</a></li>
+            <li>
+                <a href="#"><img src="resources/images/dashboard.png">Dashboard</a>
+            </li>
+            <li>
+                <a href="#"><img src="resources/images/get-started.png">Get Started</a>
+            </li>
+            <li>
+                <a href="#"><img src="resources/images/support.png">Support</a>
+            </li>
+            <li>
+                <a href="#"><img src="resources/images/kart.png">Marketplace</a>
+            </li>
+            <li>
+                <a href="#"><img src="resources/images/admin.png">IAM & Admin</a>
+            </li>
+            <li>
+                <a href="project-management.html"><img src="resources/images/project-management.png">Project Management</a>
+            </li>
+            <li>
+                <a href="#"><img src="resources/images/bill.png">Billing Management</a>
+            </li>
+        </ul>
+        <ul style="padding: 5%;">
+            <li><a href="#">Platform</a></li>
         </ul>
     </div>
 
     <section>
-    	<ul class="navbar project-management-navbar">
-    		<li><a href="#">Project Management</a></li>
-    		<li style="float: right;"><button> + &nbsp; Create New Project</button></li>
-    	</ul>
+        <ul class="navbar project-management-navbar">
+            <li><a href="#">Project Management</a></li>
+            <li style="float: right;">
+                <button> + &nbsp; Create New Project</button>
+            </li>
+        </ul>
     </section>
 
-    <section>
-    	<div class="menu-div">
-    		<ul>
-			  <li><a href="#">URGO</a></li>
-			  <li><a href="#news">News</a></li>
-			  <li><a href="#contact">Contact</a></li>
-			  <li><a href="#about">About</a></li>
-			</ul>
-    	</div>
-    	<div class="project-div">
-    			<ul class="navbar project-div-navbar">
-    				<li><a href="#">Planning & Environment</a></li>
-    				<li><a href="#">Development</a></li>
-    				<li><a href="#">Testing</a></li>
-    				<li><a href="#">Publish to Dev</a></li>
-    				<li><a href="#">Environment Upgrade</a></li>
-    			</ul>
+    <section style="display: flex;">
+        <div class="menu-div">
+            <ul>
+                <li>
+                    <a href="#"><img src="resources/images/urgo-logo.jpg">URGO</a>
+                </li>
+                <li><a href="#news">App</a>
+                    <span>Container</span>
+                </li>
+                <li><a href="#about">Bindaas App</a>
+                    <select>
+                        <option>+</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="project-div">
+            <ul class="navbar project-div-navbar">
+                <li><a href="#">Planning & Environment</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Testing</a></li>
+                <li><a href="#">Publish to Dev</a></li>
+                <li><a href="#">Environment Upgrade</a></li>
+            </ul>
 
-    			<table align="center">
-    				<tr>
-    					<th>Resource Name</th>
-    					<th>Resource Type</th>
-    					<th>Description</th>
-    					<th>Created On</th>
-    					<th>Created By</th>
-    					<th>Upgrade</th>
-    				</tr>
-    				<tr>
-    					<td>Bindaas App</td>
-    					<td>vDesigner</td>
-    					<td>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur elit ipsum</td>
-    					<td>29-03-2019</td>
-    					<td>Username</td>
-    					<td><button>Configure</button></td>
-    				</tr>
-    				<tr>
-    					<td>Environment</td>
-    					<td>DESIGN & DEV</td>
-    					<td>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur elit ipsum</td>
-    					<td>29-03-2019</td>
-    					<td>Username</td>
-    					<td><button>Configure</button></td>
-    				</tr>
-    			</table>
-    	</div>
+            <table align="center">
+                <tr>
+                    <th>Resource Name</th>
+                    <th>Resource Type</th>
+                    <th>Description</th>
+                    <th>Created On</th>
+                    <th>Created By</th>
+                    <th>Upgrade</th>
+                </tr>
+                <tr>
+                    <td>Bindaas App</td>
+                    <td>vDesigner</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur elit ipsum</td>
+                    <td>29-03-2019</td>
+                    <td>Username</td>
+                    <td>
+                        <button>Configure</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Environment</td>
+                    <td>DESIGN & DEV</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur elit ipsum dolor sit amet, consectetur elit ipsum</td>
+                    <td>29-03-2019</td>
+                    <td>Username</td>
+                    <td>
+                        <button>Configure</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
 </body>
+
 </html>

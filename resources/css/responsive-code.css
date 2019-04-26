@@ -15,6 +15,15 @@
     .featured img {
     	width: 90%;
     }
+
+    .menu-div, .project-div {
+    	width: 100%;
+    }
+
+    .project-div-navbar li {
+    	display: block;
+    	width: 100%;
+    }
 }
 
 
@@ -34,5 +43,14 @@
 
     #menuToggle {
     	top: 38px;
+    }
+
+    .menu-div, .project-div {
+    	width: 100%;
+    }
+
+    .project-div-navbar li {
+    	display: block;
+    	width: 100%;
     }
 }
