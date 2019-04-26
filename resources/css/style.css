@@ -11,6 +11,8 @@ body {
 
 nav {
     background-color: #2457A8;
+    position: sticky;
+  top: 0;
 }
 
 ul {
