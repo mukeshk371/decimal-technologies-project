@@ -45,12 +45,30 @@
     	top: 38px;
     }
 
+    .parent-div {
+    	display: block;
+    }
+
     .menu-div, .project-div {
     	width: 100%;
+    }
+
+
+    .project-div table {
+    	width: 100%;
+    	font-size: 20%;
     }
 
     .project-div-navbar li {
     	display: block;
     	width: 100%;
+    }
+
+    .project-management-navbar li {
+    	width: 100%;
+    }
+
+    .create-new-project {
+    	float: center;
     }
 }
