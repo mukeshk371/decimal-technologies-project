@@ -53,6 +53,10 @@
     	width: 100%;
     }
 
+    .menu-div ul li {
+    	text-align: center;
+    }
+
 
     .project-div table {
     	width: 100%;
