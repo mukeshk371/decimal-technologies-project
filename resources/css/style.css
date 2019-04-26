@@ -365,6 +365,7 @@ th {
   height: 50px;
   width: 100%;
   position: relative;
+  z-index: -7;
 }
 
 .nav > .nav-header {
@@ -387,7 +388,7 @@ th {
 }
 
 .nav-links a {
-    width: 100%;
+    width: 92%;
 }
 
 .nav > .nav-links > a {
@@ -415,6 +416,7 @@ th {
 
   .nav {
     background-color: #34495e;
+    z-index: 10;
   }
 
   .nav > .nav-btn > label {

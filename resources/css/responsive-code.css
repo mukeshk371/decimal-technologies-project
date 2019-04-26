@@ -45,6 +45,10 @@
     	top: 38px;
     }
 
+    .sidebarMenuInner li {
+    	z-index: -7;
+    }
+
     .parent-div {
     	display: block;
     }
