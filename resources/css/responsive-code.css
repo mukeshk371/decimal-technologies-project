@@ -19,10 +19,6 @@
 
 
 @media only screen and (max-width: 480px) {
-	body {
-		margin: 1%;
-	}
-    
     .options li,
     .featured li {
         width: 95%;
@@ -30,7 +26,10 @@
 
     #menu li {
         padding: 5% 0;
-        width: 40%;
+    }
+
+    #menu {
+    	width: 100%;
     }
 
     #menuToggle {

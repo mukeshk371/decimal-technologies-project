@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vahana Project Management | Visual Journey</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/responsive-code.css">
@@ -11,29 +11,32 @@
 
 <body>
     <nav>
-        <div id="menuToggle">
-            <input type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <a href="#"><li>Dashboard</li></a>
-                <a href="#"><li>Get Started</li></a>
-                <a href="#"><li>Support</li></a>
-                <a href="#"><li>Marketplace</li></a>
-                <a href="#"><li>IAM & Admin</li></a>
-                <a href="project-management.html"><li>Project Management</li></a>
-                <a href="#"><li>Billing Management</li></a>
-            </ul>
-        </div>
         <ul class="navbar navbar-right-menu">
-            <li><img src="resources/images/logo.jpg"></li>
+            <li style="margin-left: 4%;"><img src="resources/images/logo.jpg"></li>
             <li style="float: right;"><img src="resources/images/dropdown.jpg"></li>
             <li style="float: right;"><a href="#">Ganesh</a></li>
             <li style="float: right;"><img src="resources/images/notification.jpg"></li>
             <li style="float: right;"><img src="resources/images/chat.jpg"></li>
         </ul>
     </nav>
+
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="#"><img src="resources/images/dashboard.png">Dashboard</a></li>
+            <li><a href="#"><img src="resources/images/get-started.png">Get Started</a></li>
+            <li><a href="#"><img src="resources/images/support.png">Support</a></li>
+            <li><a href="#"><img src="resources/images/kart.png">Marketplace</a></li>
+            <li><a href="#"><img src="resources/images/admin.png">IAM & Admin</a></li>
+            <li><a href="project-management.html"><img src="resources/images/project-management.png">Project Management</a></li>
+            <li><a href="#"><img src="resources/images/bill.png">Billing Management</a></li>
+        </ul>
+    </div>
 
     <header>
         <p>Getting Started! <b>What are you looking for</b></p>
@@ -92,17 +95,17 @@
     </section>
 
     <section class="seeMore">
-    	<a href="#">See More</a>
+        <a href="#">See More</a>
     </section>
 
     <section class="border"></section>
 
     <section>
-    	<h5>Not sure how to proceed?</h5>
+        <h5>Not sure how to proceed?</h5>
     </section>
-    
+
     <section class="learnMore">
-    	<button>Learn More</button>
+        <button>Learn More</button>
     </section>
 </body>
 
